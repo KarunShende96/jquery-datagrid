@@ -1,0 +1,9 @@
+node_modules
+dist/
+coverage/
+npm-debug.log
+local.log
+.DS_Store
+.env
+.cache/
+.parcel-cache/

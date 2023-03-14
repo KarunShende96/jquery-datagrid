@@ -1,0 +1,24 @@
+{
+  "name": "parcel-plugin-boilerplate",
+  "version": "1.0.0",
+  "description": "A bolierplate to create ajavascript plugin",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf ./dist/* && parcel build --public-url . index.html"
+  },
+  "keywords": [
+    "javascript",
+    "sass"
+  ],
+  "author": "Deepchand Pati",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.59.2"
+  }
+}
