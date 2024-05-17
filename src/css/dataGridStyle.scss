@@ -1,0 +1,69 @@
+// Constants
+$font-size:13px;
+$font-weight: 300;
+$font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+$th-bg:#ededf5;
+$tr-bg: #f8f9fd;
+$color: #006;
+$border-color: #c6cbe8;
+
+
+.table-bordered{
+    border-color: $border-color !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+th{
+    background-color: $th-bg !important;
+    padding: 4px 6px 5px !important;
+    vertical-align: top;
+    &, & * {
+        font-size: $font-size;
+        font-weight: $font-weight;
+        font-family: $font-family;
+        color: $color;
+
+    }
+
+    &[data-type="checkbox"]{
+        vertical-align: middle;
+    }
+
+    input[type="checkbox"]{
+        line-height: 2;
+    }
+    
+    .dataGrid-column-title{
+        line-height: 2;
+    }
+}
+
+tr {
+    background-color: $tr-bg !important;
+    &, & * {
+        font-size: $font-size;
+        font-family: $font-family;
+        color: $color;
+    }
+}
+
+td {
+    padding: 8px 6px !important;
+}
+
+td a {
+    color: #172e50;
+    text-decoration-color: #7f8891;
+    text-underline-offset: 2px;
+    &:hover{
+        color: #172e50;
+    }
+    &:focus{
+        color: #000;
+    }
+}
